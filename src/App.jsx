@@ -1,24 +1,11 @@
 import "./App.css";
-import logo from "./logo.svg";
+import Input from "./components/Input/Input";
 
 function App() {
   return (
-    <div className="text-center">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://beta.reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React (Beta Docs)
-        </a>
-      </header>
-    </div>
+    <h1 className="text-center text-2xl font-bold">Temperature Converter</h1>
+    <input />
+    <Input />
   );
 }
 
